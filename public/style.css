@@ -1,0 +1,62 @@
+/* history */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sidebar{
+    position: fixed;
+    width: 30%;
+    height: 200%;
+    left: -30%;
+    background-color: whitesmoke;
+}
+
+#sidebar li{
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.toggle-btn{
+    position: absolute;
+    left: 105%;
+    top: 55px;
+}
+
+.toggle-btn span{
+   border: 1px solid gray;
+   margin: 2px;
+   padding: 5px;
+   color: white;
+
+}
+
+#sidebar.active{
+    left: 0px;
+}
+
+/* Calculator */
+body{
+   background-color: cornsilk;
+}
+
+h1{
+   background-color: black;
+   text-align: center;
+   color: whitesmoke;
+}
+
+.btn{
+   width: 50px;
+}
+
+#delall{
+    color:white ;
+    width: 100%;
+} 
+
+
+
